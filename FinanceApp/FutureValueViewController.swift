@@ -45,7 +45,7 @@ class FutureValueViewController: UIViewController {
         
         
         answer.text = String(floor(calculation * 100) / 100.0)
-        
+        //Changes label color
         answer.textColor = .systemGreen
         
     }
